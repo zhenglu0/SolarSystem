@@ -256,37 +256,37 @@ void display(void)
 
     
      if( g_bOrbitOn == true )
-        {
-            fSunSpin -= g_fSpeedmodifier * (g_fElpasedTime * 10.0f);
+     {
+         fSunSpin -= g_fSpeedmodifier * (g_fElpasedTime * 10.0f);
        
-            fMercuSpin -= g_fSpeedmodifier * (g_fElpasedTime * 15.0f);
-            fMercuOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 40.0f);
+         fMercuSpin -= g_fSpeedmodifier * (g_fElpasedTime * 15.0f);
+         fMercuOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 40.0f);
 
-            fVenusSpin -= g_fSpeedmodifier * (g_fElpasedTime * 10.0f);
-            fVenusOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 30.0f);
+         fVenusSpin -= g_fSpeedmodifier * (g_fElpasedTime * 10.0f);
+         fVenusOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 30.0f);
 
-            fEarthSpin  -= g_fSpeedmodifier * (g_fElpasedTime * 100.0f);
-            fEarthOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 20.0f);
+         fEarthSpin  -= g_fSpeedmodifier * (g_fElpasedTime * 100.0f);
+         fEarthOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 20.0f);
 
-            fMoonSpin  -= g_fSpeedmodifier * (g_fElpasedTime * 50.0f);
-            fMoonOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 200.0f);
+         fMoonSpin  -= g_fSpeedmodifier * (g_fElpasedTime * 50.0f);
+         fMoonOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 200.0f);
 
-            fMarsSpin -= g_fSpeedmodifier * (g_fElpasedTime * 30.0f);
-            fMarsOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 50.0f);
+         fMarsSpin -= g_fSpeedmodifier * (g_fElpasedTime * 30.0f);
+         fMarsOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 50.0f);
 
-            fJupiterSpin -= g_fSpeedmodifier * (g_fElpasedTime * 90.0f);
-            fJupiterOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 35.0f);
+         fJupiterSpin -= g_fSpeedmodifier * (g_fElpasedTime * 90.0f);
+         fJupiterOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 35.0f);
 
-            fSaturnSpin -= g_fSpeedmodifier * (g_fElpasedTime * 90.0f);
-            fSaturnOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 25.0f);
+         fSaturnSpin -= g_fSpeedmodifier * (g_fElpasedTime * 90.0f);
+         fSaturnOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 25.0f);
 
-            fUranusSpin -= g_fSpeedmodifier * (g_fElpasedTime * 70.0f);
-            fUranusOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 15.0f);
+         fUranusSpin -= g_fSpeedmodifier * (g_fElpasedTime * 70.0f);
+         fUranusOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 15.0f);
 
-            fNeptuneSpin -= g_fSpeedmodifier * (g_fElpasedTime * 40.0f);
-            fNeptuneOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 5.0f);
+         fNeptuneSpin -= g_fSpeedmodifier * (g_fElpasedTime * 40.0f);
+         fNeptuneOrbit -= g_fSpeedmodifier * (g_fElpasedTime * 5.0f);
 
-        }
+    }
 
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glMatrixMode( GL_MODELVIEW );
