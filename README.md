@@ -1,4 +1,4 @@
-# SolarSystem Proejct for Computer Graphics
+# 3D Solar System Simulator Project for Computer Graphics
 
 ![screenshot](https://github.com/RogerFederer03/SolarSystem/blob/master/Results/Result_1.jpg)
 ![screenshot](https://github.com/RogerFederer03/SolarSystem/blob/master/Results/Result_2.jpg)
